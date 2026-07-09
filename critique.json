@@ -1,0 +1,11 @@
+{
+  "kind": "critique-panel",
+  "score": 4,
+  "axes": {
+    "clarity":    { "score": 4, "notes": "Чёткая иерархия: eyebrow → заголовок → лид → CTA в каждой секции; один фокус на экран." },
+    "hierarchy":  { "score": 4, "notes": "Hero ведёт взгляд от заголовка к CTA; секции ритмично чередуют плотность (услуги/кейсы) и воздух (процесс/FAQ)." },
+    "typography": { "score": 5, "notes": "Unbounded+Manrope, негативный трекинг на дисплее, ALL-CAPS с tracking ≥0.14em, line-height выверен." },
+    "motion":     { "score": 4, "notes": "Scroll-reveal, marquee, плавающие чипы, пульс badge, ховеры; уважение prefers-reduced-motion." },
+    "brand":      { "score": 4, "notes": "Белый холст, синий #3B82F6, светящаяся L; бюджет акцента перетянут (точки/буллеты/номера нейтральны). Фото заменены CSS-артом — Fal-ключ не задан." }
+  }
+}
