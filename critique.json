@@ -2,10 +2,10 @@
   "kind": "critique-panel",
   "score": 4,
   "axes": {
-    "clarity":    { "score": 4, "notes": "Чёткая иерархия: eyebrow → заголовок → лид → CTA в каждой секции; один фокус на экран." },
-    "hierarchy":  { "score": 4, "notes": "Hero ведёт взгляд от заголовка к CTA; секции ритмично чередуют плотность (услуги/кейсы) и воздух (процесс/FAQ)." },
-    "typography": { "score": 5, "notes": "Unbounded+Manrope, негативный трекинг на дисплее, ALL-CAPS с tracking ≥0.14em, line-height выверен." },
-    "motion":     { "score": 4, "notes": "Scroll-reveal, marquee, плавающие чипы, пульс badge, ховеры; уважение prefers-reduced-motion." },
-    "brand":      { "score": 4, "notes": "Белый холст, синий #3B82F6, светящаяся L; бюджет акцента перетянут (точки/буллеты/номера нейтральны). Фото заменены CSS-артом — Fal-ключ не задан." }
+    "clarity":    { "score": 4, "notes": "Нумерованные секции 01–07 задают журнал-ритм; один фокус на экран (eyebrow → серифный заголовок → лид → действие)." },
+    "hierarchy":  { "score": 4, "notes": "Hero 7/5 сплит ведёт от заголовка к CTA; чередование плотности (услуги/кейсы) и воздуха (манифест/FAQ). Тёмный контакты — финальный аккорд." },
+    "typography": { "score": 5, "notes": "Lora(сериф)+Onest(гротеск)+JetBrains Mono — пара и моно принципиально отличаются от прошлых работ. Негативный трекинг на дисплее, моно-eyebrows ≥0.16em, hero h1 line-height 1.06." },
+    "motion":     { "score": 4, "notes": "Scroll-reveal через IntersectionObserver, marquee аудитории, ховеры кейсов (zoom) и услуг (accent-полоса), нативный FAQ-аккордеон; уважение prefers-reduced-motion." },
+    "brand":      { "score": 4, "notes": "Бумажный холст, синий как точечный акцент (CTA + glow L + курсив em через accent-ink). Реальные фото вместо CSS-арта. Чёткий отход от Unbounded/Manrope." }
   }
 }
